@@ -1,0 +1,68 @@
+.outfit-400 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  background-color: #d5e1ef;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97.7vh;
+}
+
+img {
+  border-radius: 5%;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 16px;
+  padding-bottom: 40px;
+  border-radius: 5%;
+  gap: 24px;
+}
+
+#lower-half {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  gap: 16px;
+}
+
+#first-text {
+  font-size: 22px;
+  text-align: center;
+}
+
+#second-text {
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  margin: 0px 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
